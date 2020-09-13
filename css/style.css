@@ -35,6 +35,31 @@ html, body {
     box-shadow:none;
 }
 
+
+.leftside, .rightside {
+    height: 90vh;
+    width: 100%;
+}
+
+.leftside {
+    background: url(/images/home_main/steak_mushrooms.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightside {
+    background: rgb(81, 81, 138);
+}
+
+@media screen and (max-width: 768px) {
+
+    .leftside, .rightside {
+        height: 100vh;
+    }
+}
+
+
 /* Carousel styling */
 .carousel-inner img {
     width: 100%;
