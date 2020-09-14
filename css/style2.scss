@@ -134,7 +134,7 @@ html, body {
 .main-section {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1100px;
+    max-width: 960px;
 }
 
 .main-section h2 {
@@ -150,7 +150,7 @@ html, body {
     border: #d48327;
     border-radius: 0;
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .btn-primary:hover {
@@ -167,11 +167,22 @@ html, body {
     padding: 5px 2px;
 }
 
+.hero_btn {
+    background: transparent;
+    border: solid 2px #d48327;
+    color: #fff;
+}
+
+.hero_btn:hover {
+    background: #d48327;
+    color: #fff;
+}
+
 /* First Parallax styling - Home Page */
 .first-parallax {
     background-image: url("/images/spare_images/pasta_dish.jpg");
     opacity: 0.9;
-    min-height: 500px;  
+    min-height: 400px;  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +193,7 @@ html, body {
 .second-parallax {
     background-image: url("/images/spare_images/drinks.jpg");
     opacity: 0.9;
-    min-height: 500px;  
+    min-height: 400px;  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
