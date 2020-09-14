@@ -6,14 +6,24 @@
 html, body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Avenir', sans-serif;
     color: #4d4d4d;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/fonts/Avenir.ttf'); 
+    src: url('/fonts/Avenir.woff');
+    src: url('/fonts/Avenir.woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Navigation styling */
 
 .navbar {
     padding: 0.8em;
+    font-family: 'Avenir', sans-serif;
 }
 
 .navbar-custom {
@@ -35,18 +45,34 @@ html, body {
     box-shadow:none;
 }
 
+.navbar img {
+    width: 20%;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
 
 /* hero section */
 
 .hero_section {
-    background-image: url(/images);
+    background-image: url(../images/home_main/steak_mushrooms.jpg);
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
 }
 
-/* Carousel styling */
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-    
+.hero_section img {
+    width: 35vw;
+}
+
+.headline_button {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    border-style: none;
 }
 
 /* Main sections styling - Home Page */
@@ -65,6 +91,12 @@ html, body {
 .menu-text {
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.main-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 .main-section h2 {
@@ -90,7 +122,7 @@ html, body {
 
 /* First Parallax styling - Home Page */
 .first-parallax {
-    background-image: url("/images/home_parallax/salmonthin.jpg");
+    background-image: url("/images/spare_images/drinks.jpg");
     opacity: 0.9;
     min-height: 500px;  
     background-attachment: fixed;
@@ -101,7 +133,7 @@ html, body {
 
   /* Second Parallax styling - Home Page */
 .second-parallax {
-    background-image: url("/images/home_parallax/table.jpg");
+    background-image: url("/images/spare_images/pasta_dish.jpg");
     opacity: 0.9;
     min-height: 500px;  
     background-attachment: fixed;
