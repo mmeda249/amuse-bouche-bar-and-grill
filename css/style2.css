@@ -71,8 +71,6 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
 }
 
 .hero_section img {
@@ -101,7 +99,7 @@ html, body {
 
 /* Back to top button styling */
 
-#myBtn {
+#topBtn {
   display: none; /* Hidden by default */
   position: fixed;
   bottom: 20px;
@@ -109,17 +107,18 @@ html, body {
   z-index: 99; 
   border: none; 
   outline: none; 
-  background-color: #4d4d4d;
-  opacity: 0.5;
+  background-color: #d48327;
+  opacity: 0.9;
   color: #fff; 
   cursor: pointer; 
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  padding-top: 0.2rem;
   border-radius: 10px; 
   font-size: 1.5rem;
 }
 
-#myBtn:hover {
+#topBtn:hover {
   background-color: #838282;
 
 }
