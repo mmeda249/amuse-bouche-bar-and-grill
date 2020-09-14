@@ -35,6 +35,13 @@ html, body {
     box-shadow:none;
 }
 
+
+/* hero section */
+
+.hero_section {
+    background-image: url(/images);
+}
+
 /* Carousel styling */
 .carousel-inner img {
     width: 100%;
