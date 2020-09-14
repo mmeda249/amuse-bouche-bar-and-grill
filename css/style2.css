@@ -240,18 +240,19 @@ html, body {
   color: #000;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 3rem;
   max-width: 960px;
 }
 
 .drinks_section h2 {
   font-family: 'Cormorant Garamond', serif;
+  padding-bottom: 1rem;
 }
 
 .signature {
   font-family: 'Holland', cursive;
   font-size: 2.5rem;
 }
-
 
 /* reservation section?  */
 .res-form img {
@@ -262,7 +263,6 @@ html, body {
 footer {
   background-color: #141414;
   color: lightgray;
-  padding-top: 2em;
 }
 
 footer h6 {
@@ -272,7 +272,6 @@ footer h6 {
 .social {
   font-size: 2em;
   color: lightgray;
-  padding-right: 0.5em;
 }
 
 .social:hover {
@@ -282,11 +281,16 @@ footer h6 {
 .bottom-footer {
   background-color: #232323;
   color: #969696;
+  padding-bottom: 2rem;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
+
+.drinks_section {
+  padding-top: 1.5rem;
+}
 
 .parallax_body2 {
   margin-top: 2rem;
