@@ -56,7 +56,7 @@ html, body {
 /* hero section */
 
 .hero_section {
-    background-image: url(../images/home_main/steak_mushrooms.jpg);
+    background-image: url(../images/home_main/steak_mushrooms_overlay.jpg);
     padding: 100px;
     background-attachment: fixed;
     background-position: center;
@@ -73,6 +73,23 @@ html, body {
     margin-top: 1.5rem;
     font-size: 1.2rem;
     border-style: none;
+}
+
+/* Our story section */
+
+.heading_element {
+    position: relative;
+}
+
+#heading_overlap1 {
+    transform: scale(1.8); 
+    color: #dcd9d9;
+    z-index: 1;
+}
+
+#heading_overlap2		{   
+    color:#000; 
+    z-index: 2; 
 }
 
 /* Main sections styling - Home Page */
@@ -110,6 +127,7 @@ html, body {
 .btn-primary {
     background-color: #d48327;
     border: #d48327;
+    border-radius: 0;
     margin-top: 1em;
     margin-bottom: 2em;
 }
@@ -118,6 +136,14 @@ html, body {
     background-color: #fff;
     border: 2px solid #d48327;
     color: #d48327;
+}
+
+.res_btn {
+    background: #d48327 !important;
+    color: #141414 !important;
+    border: solid 2px #d48327 !important;
+    border-radius: 0;
+    padding: 5px 2px;
 }
 
 /* First Parallax styling - Home Page */
