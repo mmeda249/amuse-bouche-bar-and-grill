@@ -42,20 +42,28 @@ html, body {
 }
 
 .leftside {
+    background: #000;
+}
+
+.leftside img {
+    width: 30vw;
+}
+
+.rightside {
     background: url(/images/home_main/steak_mushrooms.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.rightside {
-    background: rgb(81, 81, 138);
-}
-
 @media screen and (max-width: 768px) {
 
     .leftside, .rightside {
         height: 100vh;
+    }
+
+    .leftside img {
+        width: 50vw;
     }
 }
 
