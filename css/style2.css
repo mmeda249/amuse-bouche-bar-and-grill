@@ -183,11 +183,17 @@ html, body {
   background-size: cover;
 }
 
-.parallax_body {
-  padding-top: 6.5rem;
+.parallax_body1, .parallax_body2, .parallax_body3 {
+  margin-top: 3rem;
+  margin-bottom: 0;
 }
 
-.parallax_body i {
+.parallax_body4 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.parallax_card i {
   font-size: 3rem;
 }
 
@@ -247,8 +253,6 @@ footer h6 {
 
 /* Media Queries */
 @media screen and (max-width: 576px) {
-  .parallax_body {
-    padding-top: 3rem;
-  }
 }
+
 /*# sourceMappingURL=style2.css.map */
