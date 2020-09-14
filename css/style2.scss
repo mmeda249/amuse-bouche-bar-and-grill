@@ -204,14 +204,30 @@ html, body {
 
   /* Second Parallax styling - Home Page */
 .second-parallax {
-    background-image: url("/images/spare_images/drinks.jpg");
-    opacity: 0.9;
-    min-height: 400px;  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("/images/home_parallax/drinks_overlay2.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.drinks_section {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+.drinks_section h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.signature {
+  font-family: 'Holland', cursive;
+  font-size: 2.5rem;
+}
+
 
 /*  */
 .res-form img {

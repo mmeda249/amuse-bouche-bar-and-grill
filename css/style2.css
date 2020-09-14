@@ -12,9 +12,19 @@ html, body {
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/fonts/Avenir.ttf");
-  src: url("/fonts/Avenir.woff");
-  src: url("/fonts/Avenir.woff2");
+  src: url("/fonts/avenir-font/Avenir.ttf");
+  src: url("/fonts/avenir-font/Avenir.woff");
+  src: url("/fonts/avenir-font/Avenir.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Holland';
+  src: url("/fonts/holland-font/Holland.otf");
+  src: url("/fonts/holland-font/Holland.ttf");
+  src: url("/fonts/holland-font/Holland.woff");
+  src: url("/fonts/holland-font/Holland.woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -113,11 +123,13 @@ html, body {
 /* Main sections styling - Home Page */
 .story-container, .menu-container, .reserve-container {
   margin-top: 4em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .story-text, .reserve-text {
-  margin-right: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
 }
 
 .menu-text {
@@ -190,14 +202,8 @@ html, body {
   padding-top: 0.9rem;
 }
 
-.parallax_body1, .parallax_body2, .parallax_body3 {
-  margin-top: 3rem;
-  margin-bottom: 0;
-}
-
-.parallax_body4 {
-  margin-top: 3rem;
-  margin-bottom: 2.5rem;
+.parallax_body1, .parallax_body2, .parallax_body3, .parallax_body4 {
+  margin-top: 3.5rem;
 }
 
 .parallax_card i {
@@ -218,14 +224,30 @@ html, body {
 
 /* Second Parallax styling - Home Page */
 .second-parallax {
-  background-image: url("/images/spare_images/drinks.jpg");
-  opacity: 0.9;
+  background-image: url("/images/home_parallax/drinks_overlay2.jpg");
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.drinks_section {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+.drinks_section h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.signature {
+  font-family: 'Holland', cursive;
+  font-size: 2.5rem;
+}
+
 
 /* reservation section?  */
 .res-form img {
@@ -260,6 +282,18 @@ footer h6 {
 
 /* Media Queries */
 @media screen and (max-width: 576px) {
+}
+
+.parallax_body2 {
+  margin-top: 2rem;
+}
+
+.parallax_body3 {
+  margin-top: 2rem;
+}
+
+.parallax_body4 {
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style2.css.map */
