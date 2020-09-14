@@ -122,8 +122,8 @@ html, body {
 
 /* Main sections styling - Home Page */
 .story-container, .menu-container, .reserve-container {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .story-text, .reserve-text {
@@ -135,6 +135,10 @@ html, body {
 .menu-text {
   margin-left: 2em;
   margin-right: 2em;
+}
+
+.menu_card {
+  margin-bottom: 1.5rem;
 }
 
 .main-section {
@@ -281,8 +285,8 @@ footer h6 {
 }
 
 /* Media Queries */
+
 @media screen and (max-width: 576px) {
-}
 
 .parallax_body2 {
   margin-top: 2rem;
