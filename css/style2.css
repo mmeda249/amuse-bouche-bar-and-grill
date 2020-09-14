@@ -183,6 +183,13 @@ html, body {
   background-size: cover;
 }
 
+.parallax_card h5 {
+  font-family: 'Cormorant Garamond';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 0.9rem;
+}
+
 .parallax_body1, .parallax_body2, .parallax_body3 {
   margin-top: 3rem;
   margin-bottom: 0;
@@ -190,11 +197,11 @@ html, body {
 
 .parallax_body4 {
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .parallax_card i {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 .parallax_card {
