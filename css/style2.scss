@@ -179,7 +179,7 @@ html, body {
 
 /* First Parallax styling - Home Page */
 .first-parallax {
-    background-image: url("/images/spare_images/pasta_dish.jpg");
+    background-image: url("/images/home_parallax/pasta_dish_overlay.jpg");
     opacity: 0.9;
     min-height: 400px;  
     background-attachment: fixed;
@@ -193,10 +193,13 @@ html, body {
     background: transparent;
 }
 
+
+
 .parallax_text {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
+    color: #fff;
 }
 
   /* Second Parallax styling - Home Page */
@@ -250,5 +253,7 @@ footer h6 {
 
 }
 @media screen and (max-width: 576px) {
-    
+    .parallax_body {
+        padding-top: 3rem;
+    }
 }
