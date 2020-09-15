@@ -47,6 +47,7 @@ html, body {
 
 .navbar-nav li {
   padding-right: 1.3em;
+  text-transform: uppercase;
 }
 
 .nav-link {
@@ -66,7 +67,8 @@ html, body {
 }
 
 .navbar-brand {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 /* Hero section */
@@ -107,12 +109,6 @@ html, body {
   100% {
     opacity: 1;
   }
-}
-
-.headline_button {
-  margin-top: 1.5rem;
-  font-size: 1.2rem;
-  border-style: none;
 }
 
 /* Back to top button */
@@ -214,6 +210,7 @@ html, body {
   border-radius: 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .btn-primary:hover {
@@ -240,6 +237,8 @@ html, body {
   background: transparent;
   border: solid 2px #d48327;
   color: #fff;
+  text-transform: uppercase;
+  margin-top: 1.3rem;
 }
 
 .hero_btn:hover {
@@ -306,6 +305,7 @@ html, body {
 .drinks_section h2 {
   font-family: 'Cormorant Garamond', serif;
   padding-bottom: 1rem;
+  font-weight: 600;
 }
 
 .signature {
