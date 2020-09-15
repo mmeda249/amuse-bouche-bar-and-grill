@@ -23,20 +23,17 @@ $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
 
-
-// Menu.html Menu content
-
+// Food menu interaction - whne user clicks food menu heading, menu items will display beneath it
 var $content = $('.menu-content');
 
 function showContent(type) {
   $content.hide().filter('.' + type).show();
 }
 
-$('.menu').on('click', '.menu-btn', function(e) {
+$('.food_menu').on('click', '.menu-btn', function(e) {
   showContent(e.currentTarget.hash.slice(1));
   e.preventDefault();
 }); 
 
-// show 'amuse' content only on page load - this is the default content that will display on the page before the user decides to click around the menu
-
+// show 'amuse' content only on page load as default display
 showContent('amuse');

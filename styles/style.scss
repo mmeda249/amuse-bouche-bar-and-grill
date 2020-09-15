@@ -1,8 +1,9 @@
+@import "./foodmenu";
+
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -32,6 +33,7 @@ html, body {
 }
 
 /* Navigation */
+
 .nav {
   color: #000;
 }
@@ -55,14 +57,6 @@ html, body {
   float: right;
 }
 
-.navbar-default {
-  background: transparent;
-  background-image: none;
-  border-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
 .navbar img {
   width: 20%;
 }
@@ -72,15 +66,12 @@ html, body {
   text-transform: uppercase;
 }
 
-.navbar-collapse {
-  text-align: center !important;
-}
-
 .nav-link:hover {
   color: #d48327 !important;
 }
 
 /* Hero section */
+
 .hero_section {
   background-image: url(../images/home_main/steak_mushrooms_overlay.jpg);
   padding: 100px;
@@ -92,52 +83,40 @@ html, body {
 
 .hero_section img {
   width: 35vw;
-  -webkit-animation-name: heroFade;
-          animation-name: heroFade;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-}
-
-@-webkit-keyframes heroFade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation-name: heroFade;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
 }
 
 @keyframes heroFade {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 /* Back to top button */
+
 #topBtn {
-  display: none;
-  /* Hidden by default */
+  display: none; /* Hidden by default */
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
+  z-index: 99; 
+  border: none; 
+  outline: none; 
   background-color: #d48327;
   opacity: 0.9;
-  color: #fff;
-  cursor: pointer;
+  color: #fff; 
+  cursor: pointer; 
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   padding-top: 0.2rem;
-  border-radius: 0;
+  border-radius: 0; 
   font-size: 1.5rem;
 }
 
@@ -146,6 +125,7 @@ html, body {
 }
 
 /* Our Story section */
+
 .heading_overlap1 {
   position: relative;
   top: 10px;
@@ -160,8 +140,7 @@ html, body {
 
 .story, .menu, .adventure {
   font-family: 'Cormorant Garamond', serif;
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
+  transform: scale(1.8);
   color: #dcd9d9;
   z-index: 1;
 }
@@ -182,6 +161,7 @@ html, body {
 }
 
 /* Main sections styling - index.html */
+
 .story-container, .menu-container, .reserve-container {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -213,6 +193,7 @@ html, body {
 }
 
 /* Buttons */
+
 .btn-primary {
   background-color: #d48327;
   border: solid 1px #d48327;
@@ -260,6 +241,7 @@ html, body {
 }
 
 /* First Parallax - index.html */
+
 .first-parallax {
   background-image: url("../images/home_parallax/pasta_dish_overlay.jpg");
   opacity: 0.9;
@@ -298,6 +280,7 @@ html, body {
 }
 
 /* Second Parallax - index.html */
+
 .second-parallax {
   background-image: url("../images/home_parallax/drinks_overlay2.jpg");
   min-height: 400px;
@@ -327,11 +310,13 @@ html, body {
 }
 
 /* Reservations.html? */
+
 .res-form img {
   width: 100%;
 }
 
 /* Footer */
+
 .footer_container, .footer_card {
   background: #232323;
   color: lightgray;
@@ -339,8 +324,8 @@ html, body {
 }
 
 .footer_container {
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 footer h6 {
@@ -357,7 +342,7 @@ footer h6 {
 }
 
 .footer_card i {
-  padding-left: 1.6rem;
+    padding-left: 1.6rem;
 }
 
 .bottom-footer {
@@ -368,27 +353,31 @@ footer h6 {
 }
 
 .bottom-footer a {
-  text-decoration: none;
-  color: #969696;
+    text-decoration: none;
+    color: #969696;
 }
 
 .attribution {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 /* Responsive Breakpoints */
+
 @media screen and (max-width: 576px) {
-  .drinks_section {
-    padding-top: 1.5rem;
-  }
-  .parallax_body2 {
-    margin-top: 2rem;
-  }
-  .parallax_body3 {
-    margin-top: 2rem;
-  }
-  .parallax_body4 {
-    margin-bottom: 2rem;
-  }
+
+.drinks_section {
+  padding-top: 1.5rem;
 }
-/*# sourceMappingURL=style.css.map */
+
+.parallax_body2 {
+  margin-top: 2rem;
+}
+
+.parallax_body3 {
+  margin-top: 2rem;
+}
+
+.parallax_body4 {
+  margin-bottom: 2rem;
+}
+}
