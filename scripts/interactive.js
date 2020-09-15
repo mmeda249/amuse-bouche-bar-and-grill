@@ -22,3 +22,21 @@ function topFunction() {
 $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
+
+
+// Menu.html Menu content
+
+var $content = $('.menu-content');
+
+function showContent(type) {
+  $content.hide().filter('.' + type).show();
+}
+
+$('.menu').on('click', '.menu-btn', function(e) {
+  showContent(e.currentTarget.hash.slice(1));
+  e.preventDefault();
+}); 
+
+// show 'amuse' content only on page load - this is the default content that will display on the page before the user decides to click around the menu
+
+showContent('amuse');
