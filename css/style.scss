@@ -43,6 +43,7 @@
   
   .navbar-custom {
     background-color: #232323;
+    max-width: 400px !important;
   }
   
   .navbar-nav li {
@@ -69,10 +70,6 @@
   .navbar-brand {
     font-size: 1rem;
     text-transform: uppercase;
-  }
-
-  .navbar-collapse {
-    text-align: center !important;
   }
 
   .nav-link:hover {
