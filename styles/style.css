@@ -14,7 +14,7 @@ html, body {
 
 /* Menu Parallax */
 .foodMenu_parallax {
-  background-image: url("/images/menu/seafood_curry.jpg");
+  background-image: url("/images/menu/seafood_curry_overlay.jpg");
   opacity: 0.9;
   min-height: 400px;
   background-attachment: local;
