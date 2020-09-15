@@ -249,7 +249,7 @@ html, body {
 
 /* First Parallax - index.html */
 .first-parallax {
-  background-image: url("./images/home_parallax/pasta_dish_overlay.jpg");
+  background-image: url("../images/home_parallax/pasta_dish_overlay.jpg");
   opacity: 0.9;
   min-height: 400px;
   background-attachment: fixed;
@@ -287,7 +287,7 @@ html, body {
 
 /* Second Parallax - index.html */
 .second-parallax {
-  background-image: url("./images/home_parallax/drinks_overlay2.jpg");
+  background-image: url("../images/home_parallax/drinks_overlay2.jpg");
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -335,7 +335,7 @@ footer h6 {
 }
 
 .social {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: lightgray;
 }
 
@@ -344,7 +344,7 @@ footer h6 {
 }
 
 .footer_card i {
-  padding-left: 1.3rem;
+  padding-left: 1.6rem;
 }
 
 .bottom-footer {
