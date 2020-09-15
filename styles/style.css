@@ -118,7 +118,7 @@ html, body {
 /* Hero section */
 .hero_section {
   background-image: url(../images/home_main/steak_mushrooms_overlay.jpg);
-  padding: 100px;
+  padding: 140px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -413,6 +413,14 @@ footer h6 {
 
 /* Responsive Breakpoints */
 @media screen and (max-width: 576px) {
+  .hero_section {
+    background-image: url(../images/home_main/steak_mushrooms_overlay.jpg);
+    padding: 100px;
+    background-attachment: local;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .drinks_section {
     padding-top: 1.5rem;
   }
