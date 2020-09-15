@@ -12,6 +12,18 @@ html, body {
   color: #4d4d4d;
 }
 
+/* Menu Parallax */
+.foodMenu_parallax {
+  background-image: url("/images/menu/seafood_curry.jpg");
+  opacity: 0.9;
+  min-height: 400px;
+  background-attachment: local;
+  background-position: 40% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Food Menu section */
 .food_container {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -120,7 +132,7 @@ html, body {
   background-image: url(../images/home_main/steak_mushrooms_overlay.jpg);
   padding: 140px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -1,8 +1,22 @@
+/* Menu Parallax */
+
+.foodMenu_parallax {
+  background-image: url("/images/menu/seafood_curry.jpg");
+  opacity: 0.9;
+  min-height: 400px;
+  background-attachment: local;
+  background-position: 40% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* Food Menu section */
+
 .food_container {
   margin-top: 3rem;
   margin-bottom: 3rem;
 } 
-
 
 .food_container ul {
   list-style-type: none;
