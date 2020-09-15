@@ -121,7 +121,7 @@ html, body {
   /* Hidden by default */
   position: fixed;
   bottom: 20px;
-  right: 15px;
+  right: 20px;
   z-index: 99;
   border: none;
   outline: none;
@@ -132,7 +132,7 @@ html, body {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   padding-top: 0.2rem;
-  border-radius: 10px;
+  border-radius: 0;
   font-size: 1.5rem;
 }
 
@@ -335,6 +335,10 @@ footer h6 {
 
 .social:hover {
   color: #d48327;
+}
+
+.footer_card i {
+  padding-left: 1.3rem;
 }
 
 .bottom-footer {
