@@ -32,3 +32,18 @@
   text-decoration: none;
   text-align: center;
 }
+
+@media screen and (max-width: 400px) {
+  .food_container ul {
+    width: 100%;
+  }
+  
+  .food_menu li {
+    width: 100%;
+  }
+
+  .menu-btn {
+  text-align: center;
+  margin: 0 auto;
+  }
+}
