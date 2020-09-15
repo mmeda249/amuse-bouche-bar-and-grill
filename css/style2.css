@@ -210,10 +210,10 @@ html, body {
 /* Buttons */
 .btn-primary {
   background-color: #d48327;
-  border: #d48327;
+  border: solid 1px #d48327;
   border-radius: 0;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .btn-primary:hover {
@@ -225,9 +225,15 @@ html, body {
 .res_btn {
   background: #d48327 !important;
   color: #141414 !important;
-  border: solid 2px #d48327 !important;
+  border: solid 1px #d48327 !important;
   border-radius: 0;
   padding: 5px 2px;
+}
+
+.res_btn:hover {
+  border: solid 2px #d48327 !important;
+  background: transparent !important;
+  color: #fff !important;
 }
 
 .hero_btn {
