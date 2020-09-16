@@ -50,7 +50,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #9d9a9a;
+  background-color: #fff;
   width: 390px;
   margin: 0 auto;
 }
@@ -63,8 +63,7 @@ html, body {
   width: 120px;
   height: 40px;
   margin: 0 4px;
-  border: solid 2px #fff;
-  border-radius: 5px;
+  border-radius: 0;
   float: left;
 }
 
@@ -73,7 +72,7 @@ html, body {
   width: 120px;
   height: 40px;
   line-height: 40px;
-  color: white;
+  color: #9d9a9a;
   text-decoration: none;
   text-align: center;
 }
@@ -81,7 +80,11 @@ html, body {
 .menu-btn {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.menu-btn:hover, .menu-btn:active {
+  color: #d48327;
 }
 
 .menu_section {
@@ -103,6 +106,30 @@ html, body {
 .menu-content p {
   color: #9d9a9a;
   font-size: 17px;
+}
+
+/* Drinks section parallax */
+.ask_about {
+  background-image: url("../images/menu/delicious_cocktail.jpg");
+  min-height: 400px;
+  background-attachment: local;
+  background-position: 50% 59%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.askAbout_section {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  max-width: 960px;
+}
+
+.askAbout_section p {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  color: #fff;
 }
 
 @media screen and (max-width: 400px) {
