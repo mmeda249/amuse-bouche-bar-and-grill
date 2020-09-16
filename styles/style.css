@@ -36,6 +36,11 @@ html, body {
           transform: translate(-50%, -50%);
 }
 
+/* Menu images section */
+.menu_images {
+  margin-top: 4rem;
+}
+
 /* Food Menu section */
 .food_container {
   margin-top: 3rem;
@@ -109,7 +114,7 @@ html, body {
 
 /* Drinks section parallax */
 .ask_about {
-  background-image: url("../images/menu/delicious_cocktail.jpg");
+  background-image: url("../images/menu/delicious_cocktails_overlay.jpg");
   min-height: 300px;
   background-attachment: local;
   background-position: 50% 60%;
@@ -121,20 +126,30 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
-  font-family: 'Cormorant Garamond', serif;
+  padding-top: 4rem;
+}
+
+.askAboutSection h2 {
+  font-style: italic;
   font-weight: bold;
   color: #fff;
+  font-size: 1.8rem;
 }
 
 /* "Book a Table" Section */
 .hungry {
-  background: url(../images/menu/tomato_cucumber_salad.jpg);
-  min-height: 150px;
+  background: url(../images/menu/tomato_cucumber_salad_overlay2.jpg);
+  min-height: 130px;
   background-attachment: local;
-  background-position: 50% 70%;
+  background-position: 50% 68%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+}
+
+.hungry h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 
 /* Responsive breakpoints */
