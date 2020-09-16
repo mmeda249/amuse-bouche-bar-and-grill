@@ -35,7 +35,8 @@
     @include maxWidthBody();
 }
 
-.team_section .card {
+.team_section {
+  @include maxWidthBody();
     border: none;
     outline: none;
 }
@@ -43,6 +44,7 @@
 .team_section h6 {
     font-weight: 600;
 }
+
 
 /* Inquiry section */
 
