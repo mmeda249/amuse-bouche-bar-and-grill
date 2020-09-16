@@ -43,6 +43,11 @@ html, body {
   margin-bottom: 3rem;
 }
 
+.menu_section .card {
+  border: none;
+  outline: none;
+}
+
 .food_container ul {
   list-style-type: none;
   margin: 0;
