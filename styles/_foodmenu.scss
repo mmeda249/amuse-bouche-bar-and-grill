@@ -31,10 +31,8 @@
 /* Food Menu section */
 
 .food_container {
+  @include maxWidthBody();
   margin-top: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
 } 
 
 .food_container ul {
@@ -110,13 +108,10 @@
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .askAboutSection {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
+  @include maxWidthBody();
   padding-top: 4rem;
 }
 

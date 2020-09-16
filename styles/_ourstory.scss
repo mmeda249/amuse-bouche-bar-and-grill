@@ -22,19 +22,25 @@
     transform: translate(-50%, -50%);
   }
 
+/* Our Story section */
+
+#story_details {
+    @include maxWidthBody();
+}
+
+.story_heading {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
 /* Our Team section */
 
 #team {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthBody();
 }
 
-#team img {
-    border-radius: 50%;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+.team_section img {
+    
 }
 
 .team_section .card {

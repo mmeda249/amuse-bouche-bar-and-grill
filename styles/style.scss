@@ -10,8 +10,17 @@ html, body {
   font-family: 'Avenir', sans-serif;
   color: #4d4d4d;
 }
+
+/* Sass */ 
+
 @import "./foodmenu";
 @import "./ourstory";
+
+@mixin maxWidthBody {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
 
 @font-face {
   font-family: 'Avenir';
@@ -21,6 +30,8 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
+
+/* Fonts */
 
 @font-face {
   font-family: 'Holland';
@@ -179,9 +190,7 @@ html, body {
 }
 
 .main-section {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
+  @include maxWidthBody();
 }
 
 .main-section h2 {
@@ -273,9 +282,7 @@ html, body {
 }
 
 .parallax_text {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
+  @include maxWidthBody();
   color: #fff;
 }
 
@@ -291,11 +298,9 @@ html, body {
 }
 
 .drinks_section {
+  @include maxWidthBody();
   color: #000;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 3rem;
-  max-width: 960px;
 }
 
 .drinks_section h2 {
