@@ -21,6 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  
 
 /* Our Story section */
 
@@ -28,19 +29,10 @@
     @include maxWidthBody();
 }
 
-.story_heading {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-}
-
 /* Our Team section */
 
 #team {
     @include maxWidthBody();
-}
-
-.team_section img {
-    
 }
 
 .team_section .card {
@@ -55,7 +47,7 @@
 /* Inquiry section */
 
   .inquiry {
-    background: url(../images/menu/tomato_cucumber_salad_overlay2.jpg);
+    background: url(../images/spare_images/salmon_thin.jpg);
     min-height: 130px;
     background-attachment: local;
     background-position: 50% 68%;
