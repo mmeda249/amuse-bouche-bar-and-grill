@@ -50,9 +50,13 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: olive;
+  background-color: #9d9a9a;
   width: 390px;
   margin: 0 auto;
+}
+
+.food_menu {
+  margin-bottom: 2rem;
 }
 
 .food_menu li {
@@ -74,8 +78,16 @@ html, body {
   text-align: center;
 }
 
+.menu-btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 .menu_section {
   text-align: left;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 .menu_section .card {
@@ -88,7 +100,7 @@ html, body {
   font-size: 17px;
 }
 
-.menu-content h6 {
+.menu-content p {
   color: #9d9a9a;
   font-size: 17px;
 }
@@ -290,7 +302,7 @@ html, body {
   text-transform: uppercase;
 }
 
-#dots {
+.dots {
   color: #d48327;
 }
 
