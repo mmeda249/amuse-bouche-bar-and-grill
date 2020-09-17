@@ -377,6 +377,7 @@ html, body {
 }
 
 .hero_logo {
+  font-weight: bold;
   -webkit-animation-name: heroFade;
           animation-name: heroFade;
   -webkit-animation-duration: 1s;
@@ -406,6 +407,7 @@ html, body {
 }
 
 .hero_logo {
+  width: 100%;
   color: #fff;
 }
 
