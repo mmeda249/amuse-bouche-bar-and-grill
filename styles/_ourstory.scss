@@ -80,8 +80,20 @@ hr {
 
 /* Inquiry section */
 
+#inquiry {
+  background-image: url(../images/about/about_main/crostini_arugula_overlay.jpg);
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .inquiry_section {
   @include maxWidthBody();
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: #fff;
 }
 
   @media screen and (max-width: 400px) {
