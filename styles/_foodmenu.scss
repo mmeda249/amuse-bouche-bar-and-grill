@@ -10,6 +10,11 @@
   color: #000;
 }
 
+@mixin autoMargins {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Menu Parallax */
 
 .foodMenu_parallax {
@@ -57,27 +62,15 @@
   margin: 0 auto;
 }
 
-.food_menu {
-  margin-bottom: 2rem;
-}
-
-.food_menu li {
-  width: 120px;
-  height: 40px;
-  margin: 0 4px;
-  border-radius: 0;
-  float: left;
-}
-
-.food_menu li a {
-  display: block;
-  width: 120px;
-  height: 40px;
-  line-height: 40px;
-  color: #9d9a9a;
-  text-decoration: none;
+.food_wrapper {
+  @include maxWidthBody();
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  
 }
+
 
 .menu-btn {
   text-transform: uppercase;

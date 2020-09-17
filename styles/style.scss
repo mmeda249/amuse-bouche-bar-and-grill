@@ -17,6 +17,11 @@
   color: #000;
 }
 
+@mixin autoMargins {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,9 +60,6 @@ html, body {
 
 /* Navigation */
 
-.nav {
-  color: #000;
-}
 
 .navbar {
   padding: 0.8rem;
@@ -73,9 +75,9 @@ html, body {
   text-transform: uppercase;
 }
 
-.nav-link {
+.mainNav_link {
   font-size: 1rem;
-  float: right;
+/* Need to fix navigation layout */
 }
 
 .navbar img {
