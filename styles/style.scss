@@ -24,24 +24,16 @@ html, body {
   max-width: 960px;
 }
 
-@mixin subheaderShadow {
-  font-family: 'Cormorant Garamond', serif;
-  transform: scale(1.8);
-  color: #dcd9d9;
-  z-index: 1;
-}
-
 @mixin subheader {
-  position: relative;
+  text-transform: uppercase;
   color: #000;
-  z-index: 2;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/fonts/avenir-font/Avenir.ttf");
-  src: url("/fonts/avenir-font/Avenir.woff");
-  src: url("/fonts/avenir-font/Avenir.woff2");
+  src: url("../fonts/avenir-font/Avenir.ttf");
+  src: url("../fonts/avenir-font/Avenir.woff");
+  src: url("../fonts/avenir-font/Avenir.woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -50,10 +42,10 @@ html, body {
 
 @font-face {
   font-family: 'Holland';
-  src: url("/fonts/holland-font/Holland.otf");
-  src: url("/fonts/holland-font/Holland.ttf");
-  src: url("/fonts/holland-font/Holland.woff");
-  src: url("/fonts/holland-font/Holland.woff2");
+  src: url("../fonts/holland-font/Holland.otf");
+  src: url("../fonts/holland-font/Holland.ttf");
+  src: url("../fonts/holland-font/Holland.woff");
+  src: url("../fonts/holland-font/Holland.woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -164,11 +156,7 @@ html, body {
   left: 10px;
 }
 
-.story, .menu, .adventure {
-  @include subheaderShadow();
-}
-
-.our_story, .our_menu, .culinary_adventure {
+.sub_header {
   @include subheader();
 }
 
@@ -217,8 +205,6 @@ html, body {
   background-color: #d48327;
   border: solid 1px #d48327;
   border-radius: 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
