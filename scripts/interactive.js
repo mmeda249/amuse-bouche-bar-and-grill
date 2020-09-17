@@ -22,5 +22,3 @@ function topFunction() {
 $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
-
-// Food menu interaction - whne user clicks food menu heading, menu items will display beneath it

@@ -66,6 +66,17 @@
   @include maxWidthBody();
 }
 
+#food_menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+ .nav-link.active {
+  background: #d48327 !important;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
 /* might have to delete this since it appears to have broken the pill function 
 
 .food_wrapper {
@@ -84,21 +95,6 @@
   border-color: #d48327 !important;
 }
 
-.menu-btn {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.4rem;
-}
-
-.menu-btn:hover, .menu-btn:active {
-  color: #d48327;
-}
-
-.menu_section {
-  text-align: left;
-  margin: 0;
-  padding-bottom: 1rem;
-}
 
 .menu_section .card {
   border: none;
@@ -111,7 +107,6 @@
 }
 
 .menu-content p {
-  color: #9d9a9a;
   font-size: 17px;
 }
 
