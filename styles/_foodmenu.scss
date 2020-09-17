@@ -43,24 +43,10 @@
 
 .menu_images {
   margin-top: 4rem;
+  margin-bottom: 1rem;
 }
 
 /* Food Menu section */
-
-.food_container {
-  @include maxWidthBody();
-  margin-top: 3rem;
-} 
-
-.food_container ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #fff;
-  width: 390px;
-  margin: 0 auto;
-}
 
 #food_menu {
   @include maxWidthBody();
@@ -69,25 +55,30 @@
 #food_menu ul {
   display: flex;
   justify-content: center;
+  padding-bottom: 1.5rem;
 }
 
  .nav-link.active {
   background: #d48327 !important;
   border-radius: 0;
+  border: solid 1px #d48327;
+  color: #fff !important;
+}
+
+.nav-link.active:hover {
+  color: #fff !important;
+}
+
+.nav-pills a {
+  color: #d48327;
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.1rem;
 }
 
-/* might have to delete this since it appears to have broken the pill function 
-
-.food_wrapper {
-  @include maxWidthBody();
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+.nav-pills a:hover {
+  color: #000 !important;
 }
-
-*/
 
 .menu_hr {
   margin-top: -0.3rem;
@@ -95,19 +86,19 @@
   border-color: #d48327 !important;
 }
 
-
 .menu_section .card {
   border: none;
   outline: none;
 }
 
-.menu-content h5 {
+.menu_content h5 {
   text-transform: uppercase;
   font-size: 17px;
 }
 
-.menu-content p {
+.menu_content p {
   font-size: 17px;
+  color: #9a9a9a !important;
 }
 
 /* Drinks section parallax */
@@ -164,10 +155,5 @@
   
   .food_menu li {
     width: 100%;
-  }
-
-  .menu-btn {
-  text-align: center;
-  margin: 0 auto;
   }
 }
