@@ -62,6 +62,9 @@
   margin: 0 auto;
 }
 
+#food_menu {
+  @include maxWidthBody();
+}
 
 /* might have to delete this since it appears to have broken the pill function 
 
@@ -77,8 +80,8 @@
 
 .menu_hr {
   margin-top: -0.3rem;
-  max-width: 10rem;
-  color: #d48327;
+  width: 200px;
+  border-color: #d48327 !important;
 }
 
 .menu-btn {
