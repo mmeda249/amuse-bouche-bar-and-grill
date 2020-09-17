@@ -25,7 +25,7 @@
 
 /* Menu images section */
 .menu_images {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -376,8 +376,7 @@ html, body {
   background-size: cover;
 }
 
-.hero_section img {
-  width: 35vw;
+.hero_logo {
   -webkit-animation-name: heroFade;
           animation-name: heroFade;
   -webkit-animation-duration: 1s;
@@ -406,6 +405,20 @@ html, body {
   }
 }
 
+.hero_logo {
+  color: #fff;
+}
+
+.hero_icon {
+  width: 120px;
+}
+
+.hero_sub {
+  letter-spacing: 6px;
+  font-family: 'Cormorant Garamond', serif;
+  padding-bottom: 0.5rem;
+}
+
 /* Back to top button */
 #topBtn {
   display: none;
@@ -432,21 +445,9 @@ html, body {
 }
 
 /* Our Story section */
-.heading_overlap1 {
-  position: relative;
-  top: 10px;
-  right: 10px;
-}
-
-.heading_overlap2 {
-  position: relative;
-  top: -15px;
-  left: 10px;
-}
-
 .sub_header {
   text-transform: uppercase;
-  padding-top: 2rem;
+  padding-top: rem;
   color: #000;
 }
 
@@ -461,7 +462,7 @@ html, body {
 
 /* Main sections styling - index.html */
 .story-container, .menu-container, .reserve-container {
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   margin-bottom: 3.5rem;
 }
 
@@ -488,6 +489,7 @@ html, body {
 
 .dots {
   color: #d48327;
+  padding-bottom: 1rem;
 }
 
 /* Buttons */
@@ -533,6 +535,10 @@ html, body {
 .hero_btn:hover {
   background: #d48327;
   color: #fff;
+}
+
+.section_btn {
+  margin-top: 0.7rem;
 }
 
 /* First Parallax - index.html */
@@ -655,7 +661,6 @@ footer h6 {
 /* Responsive Breakpoints */
 @media screen and (max-width: 576px) {
   .hero_section {
-    background-image: url(../images/home_main/steak_mushrooms_overlay.jpg);
     padding: 100px;
     background-attachment: local;
     background-position: top center;
