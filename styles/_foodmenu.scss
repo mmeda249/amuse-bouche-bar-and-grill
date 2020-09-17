@@ -174,14 +174,13 @@
 
 /* "Book a Table" Section */
 
-.hungry {
+#hungry {
   background: url(../images/menu/tomato_cucumber_salad_overlay2.jpg);
-  min-height: 130px;
-  background-attachment: local;
+  min-height: 250px;
+  background-attachment: fixed;
   background-position: 50% 68%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
 }
 
 .hungry h2 {
