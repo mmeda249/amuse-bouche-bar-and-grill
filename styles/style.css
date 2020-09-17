@@ -26,7 +26,7 @@
 /* Menu images section */
 .menu_images {
   margin-top: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Food Menu section */
@@ -34,6 +34,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
+  padding-bottom: 2.5rem;
 }
 
 #food_menu ul {
@@ -43,7 +44,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.7rem;
 }
 
 .nav-link.active {
@@ -90,7 +91,7 @@
 }
 
 /* Drinks section parallax */
-.ask_about {
+.wine_section {
   background-image: url("../images/menu/delicious_cocktails_overlay.jpg");
   min-height: 300px;
   background-attachment: local;
@@ -99,18 +100,17 @@
   background-size: cover;
 }
 
-.askAboutSection {
+.wine_header {
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
   padding-top: 4rem;
 }
 
-.askAboutSection h2 {
-  font-style: italic;
+.wine_section h2 {
   font-weight: bold;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 /* "Book a Table" Section */
