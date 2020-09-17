@@ -62,15 +62,18 @@
   margin: 0 auto;
 }
 
+
+/* might have to delete this since it appears to have broken the pill function 
+
 .food_wrapper {
   @include maxWidthBody();
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  
 }
 
+*/
 
 .menu-btn {
   text-transform: uppercase;
