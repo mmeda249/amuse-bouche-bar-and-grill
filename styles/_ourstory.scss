@@ -10,6 +10,11 @@
   color: #000;
 }
 
+@mixin autoMargins {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* About Parallax */
 
 .about_parallax {
@@ -56,17 +61,22 @@ hr {
 /* Our Team section */
 
 #team {
-    @include maxWidthBody();
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
 
 .team_cards {
   padding-top: 0.8rem;
+  padding-left: 3rem;
 }
 
-.card {
-    border: none;
-    outline: none;
+.team_member {
+  width: 75%;
+  border: none;
+  outline: none;
 }
+
 
 /* Inquiry section */
 
@@ -78,4 +88,15 @@ hr {
       .about_parallax h1 {
           top: 36%;
       }
+  }
+
+  @media screen and (max-width: 576px) {
+    
+    .team_cards {
+      padding-left: 0;
+    }
+    
+    .team_member {
+      @include autoMargins();
+    }
   }
