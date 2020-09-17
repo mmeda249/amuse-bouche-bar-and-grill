@@ -41,27 +41,11 @@
     outline: none;
 }
 
-.team_section h6 {
-    font-weight: 600;
-}
-
 /* Inquiry section */
 
-  .inquiry {
-    background: url(../images/spare_images/salmon_thin.jpg);
-    min-height: 130px;
-    background-attachment: local;
-    background-position: 50% 68%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-  }
-  
-  .inquiry h2 {
-    font-weight: 900;
-    font-size: 2.5rem;
-  }
-
+.inquiry_section {
+  @include maxWidthBody();
+}
 
   @media screen and (max-width: 400px) {
       .about_parallax h1 {
