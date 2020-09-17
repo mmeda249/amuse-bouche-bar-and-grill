@@ -1,21 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  font-family: 'Avenir', sans-serif;
-  color: #4d4d4d;
-}
-
 /* Sass */
 /* Menu Parallax */
 .foodMenu_parallax {
-  background-image: url("/images/menu/fish_vegetables_overlay.jpg");
+  background-image: url("../images/menu/fish_vegetables_overlay.jpg");
   min-height: 450px;
   background-attachment: local;
   background-position: 40% 67%;
@@ -172,7 +158,7 @@ html, body {
 
 /* About Parallax */
 .about_parallax {
-  background-image: url("/images/about/about_main/carrot_dish.jpg");
+  background-image: url("../images/about/about_main/carrot_dish.jpg");
   min-height: 450px;
   background-attachment: local;
   background-position: 75% 80%;
@@ -201,9 +187,16 @@ html, body {
   max-width: 960px;
 }
 
-.story_heading {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+#story_spacing {
+  margin-top: 2rem;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.8rem;
+  max-width: 10rem;
+  border-color: #d48327;
 }
 
 /* Our Team section */
@@ -213,29 +206,20 @@ html, body {
   max-width: 960px;
 }
 
-.team_section .card {
+.team_cards {
+  padding-top: 0.8rem;
+}
+
+.card {
   border: none;
   outline: none;
 }
 
-.team_section h6 {
-  font-weight: 600;
-}
-
 /* Inquiry section */
-.inquiry {
-  background: url(../images/menu/tomato_cucumber_salad_overlay2.jpg);
-  min-height: 130px;
-  background-attachment: local;
-  background-position: 50% 68%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-}
-
-.inquiry h2 {
-  font-weight: 900;
-  font-size: 2.5rem;
+.inquiry_section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
 }
 
 @media screen and (max-width: 400px) {
@@ -244,11 +228,25 @@ html, body {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Avenir', sans-serif;
+  color: #4d4d4d;
+}
+
 @font-face {
   font-family: 'Avenir';
-  src: url("/fonts/avenir-font/Avenir.ttf");
-  src: url("/fonts/avenir-font/Avenir.woff");
-  src: url("/fonts/avenir-font/Avenir.woff2");
+  src: url("../fonts/avenir-font/Avenir.ttf");
+  src: url("../fonts/avenir-font/Avenir.woff");
+  src: url("../fonts/avenir-font/Avenir.woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -256,10 +254,10 @@ html, body {
 /* Fonts */
 @font-face {
   font-family: 'Holland';
-  src: url("/fonts/holland-font/Holland.otf");
-  src: url("/fonts/holland-font/Holland.ttf");
-  src: url("/fonts/holland-font/Holland.woff");
-  src: url("/fonts/holland-font/Holland.woff2");
+  src: url("../fonts/holland-font/Holland.otf");
+  src: url("../fonts/holland-font/Holland.ttf");
+  src: url("../fonts/holland-font/Holland.woff");
+  src: url("../fonts/holland-font/Holland.woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -379,18 +377,10 @@ html, body {
   left: 10px;
 }
 
-.story, .menu, .adventure {
-  font-family: 'Cormorant Garamond', serif;
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
-  color: #dcd9d9;
-  z-index: 1;
-}
-
-.our_story, .our_menu, .culinary_adventure {
-  position: relative;
+.sub_header {
+  text-transform: uppercase;
+  padding-top: 2rem;
   color: #000;
-  z-index: 2;
 }
 
 .menu_card {
@@ -438,8 +428,6 @@ html, body {
   background-color: #d48327;
   border: solid 1px #d48327;
   border-radius: 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
