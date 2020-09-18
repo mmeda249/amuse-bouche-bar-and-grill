@@ -1,5 +1,22 @@
-
-   /* Contact Main Parallax */
+@mixin maxWidthBody {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+  }
+  
+  @mixin subheader {
+    text-transform: uppercase;
+    padding-top: 2rem;
+    color: #000;
+  }
+  
+  @mixin autoMargins {
+    margin-right: auto;
+    margin-left: auto;
+  }
+   
+   
+/* Contact Main Parallax */
 
 .contact_parallax {
     background-image: url("../images/contact/salmon_thin.jpg");
@@ -22,3 +39,44 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .contact_intro {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.message {
+    font-weight: bold;
+}
+
+.contact_wrapper {
+    @include maxWidthBody();
+}
+
+.contact_section {
+    margin-top: 2.5rem;
+}
+
+.contact_section a {
+    color: #d48327;
+    text-decoration: none;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+    border-radius: 0;
+    background: #f7f5ee;
+}
+
+.contact_info {
+    font-weight: bold;
+}
+
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
+.address_section {
+    margin-bottom: 3rem;
+}
