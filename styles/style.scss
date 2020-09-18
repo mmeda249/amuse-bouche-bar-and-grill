@@ -13,7 +13,7 @@
 
 @mixin subheader {
   text-transform: uppercase;
-  padding-top: rem;
+  padding-top: 1.5rem;
   color: #000;
 }
 
@@ -181,7 +181,7 @@ html, body {
 
 .story-container, .menu-container, .reserve-container {
   margin-top: 3rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .story-text, .reserve-text {

@@ -43,10 +43,14 @@
 
 .menu_images {
   margin-top: 3.5rem;
-  margin-bottom: 1rem;
 }
 
 /* Food Menu section */
+
+.list {
+  @include subheader();
+  padding-bottom: 0.8rem;
+}
 
 #food_menu {
   @include maxWidthBody();
@@ -115,7 +119,7 @@
 
 .wine_header {
   @include maxWidthBody();
-  padding-top: 1rem;
+  @include subheader();
 }
 
 .wine_section p {
@@ -164,10 +168,7 @@
   }
 }
 
-.beverage_list {
-  padding-bottom: 1.2rem;
-  padding-top: 1rem;
-}
+
 
 /* "Book a Table" Section */
 
