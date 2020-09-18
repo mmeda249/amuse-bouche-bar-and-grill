@@ -77,12 +77,13 @@
 
 .form-control {
     margin-bottom: 1.5rem;
-    border-radius: 0;
-    background: #f7f5ee;
+    border: none;
+    background: #f7f5f0;
 }
 
 .contact_info {
-    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.2px;
 }
 
 #my-form-status {
