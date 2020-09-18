@@ -8,11 +8,24 @@
   text-transform: uppercase;
   padding-top: 1rem;
   color: #000;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
 }
 
 @mixin autoMargins {
   margin-right: auto;
   margin-left: auto;
+}
+
+@mixin bottomCTA {
+  @include maxWidthBody();
+  padding-top: 4rem;
+  color: #fff;
+}
+
+@mixin bottomCTA_text {
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 /* Menu Parallax */
@@ -27,7 +40,6 @@
 }
 
 .foodMenu_parallax h1 {
-  
   font-size: 4.5rem;
   color: #fff;
   margin: 0;
@@ -181,9 +193,12 @@
   background-size: cover;
 }
 
-.hungry h2 {
-  font-weight: 900;
-  font-size: 2.5rem;
+.bottom_cta {
+  @include bottomCTA();
+}
+
+.bottom_cta h2 {
+@include bottomCTA_text();
 }
 
 /* Responsive breakpoints */

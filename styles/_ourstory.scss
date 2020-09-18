@@ -8,11 +8,24 @@
   text-transform: uppercase;
   padding-top: 2rem;
   color: #000;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
 }
 
 @mixin autoMargins {
   margin-right: auto;
   margin-left: auto;
+}
+
+@mixin bottomCTA {
+  @include maxWidthBody();
+  padding-top: 4rem;
+  color: #fff;
+}
+
+@mixin bottomCTA_text {
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 /* About Parallax */
@@ -76,23 +89,23 @@
   outline: none;
 }
 
-
 /* Inquiry section */
 
 #inquiry {
   background-image: url(../images/about/about_main/crostini_arugula_overlay.jpg);
   min-height: 250px;
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: 50% 68%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.inquiry_section {
-  @include maxWidthBody();
-  padding-top: 60px;
-  padding-bottom: 50px;
-  color: #fff;
+.bottom_cta {
+  @include bottomCTA();
+}
+
+.bottom_cta h2 {
+@include bottomCTA_text();
 }
 
   @media screen and (max-width: 400px) {
