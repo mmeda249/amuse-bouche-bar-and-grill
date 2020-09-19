@@ -411,6 +411,12 @@ html, body {
 /* Navigation */
 .navbar {
   padding: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.logo {
+  width: 65px;
+  padding-left: 1rem;
 }
 
 .navbar-custom {
@@ -420,10 +426,6 @@ html, body {
 .navbar-nav li {
   padding-right: 1rem;
   text-transform: uppercase;
-}
-
-.navbar img {
-  width: 55px;
 }
 
 .nav-item {
