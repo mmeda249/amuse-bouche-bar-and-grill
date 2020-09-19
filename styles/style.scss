@@ -76,22 +76,30 @@ html, body {
   text-transform: uppercase;
 }
 
-.mainNav_link {
-  font-size: 1rem;
-/* Need to fix navigation layout */
-}
-
 .navbar img {
   width: 55px;
+}
+
+.nav-item {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}
+
+.nav-link {
+  text-align: center;
 }
 
 .nav-link:hover {
   color: #d48327 !important;
 }
 
-.nav-item {
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 3px;
+.nav-link.active {
+  @include autoMargins();
+  background: #d48327 !important;
+  border-radius: 0;
+  border: solid 1px #d48327;
+  color: #fff !important;
+  max-width: 165px;
 }
 
 /* Hero section */
@@ -229,32 +237,12 @@ html, body {
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 3px;
-
 }
 
 .btn-primary:hover {
   background-color: #fff;
   border: 1px solid #d48327;
   color: #d48327;
-}
-
-.res_btn {
-  background: #d48327 !important;
-  color: #141414 !important;
-  border: solid 1px #d48327 !important;
-  border-radius: 0;
-  padding: 8px 5px 3px 5px;
-  max-width: 150px;
-  float: right;
-  font-family: 'Bebas Neue', cursive;
-}
-
-.res_btn:hover {
-  border: solid 1px #d48327 !important;
-  background: transparent !important;
-  color: #fff !important;
-  padding: 8px 5px 3px 5px;
-  max-width: 150px;
 }
 
 .hero_btn {
