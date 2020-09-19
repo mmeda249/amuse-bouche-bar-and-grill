@@ -532,7 +532,7 @@ html, body {
 /* Our Story section */
 .sub_header {
   text-transform: uppercase;
-  padding-top: 1.5rem;
+  padding-top: 0.4rem;
   color: #000;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 3px;
@@ -540,7 +540,7 @@ html, body {
 
 .menu_card {
   border: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .menu_card img {
@@ -548,15 +548,26 @@ html, body {
 }
 
 /* Main sections styling - index.html */
-.story-container, .menu-container, .reserve-container {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+.story-container {
+  margin-top: 2.7rem;
+  margin-bottom: 2.3rem;
+}
+
+.menu_wrapper {
+  margin-top: 1.6rem;
+  margin-bottom: 2.2rem;
+}
+
+.reserve-container {
+  margin-top: 2.7rem;
+  padding-bottom: 2.3rem;
 }
 
 .story-text, .reserve-text {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 .menu-text {
@@ -643,8 +654,8 @@ html, body {
 }
 
 .parallax_card h5 {
-  font-family: 'Cormorant Garamond';
-  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
   font-size: 1.5rem;
   padding-top: 0.9rem;
 }
