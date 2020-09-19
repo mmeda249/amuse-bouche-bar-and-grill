@@ -63,9 +63,9 @@
 }
 
 .about_hr {
-  margin-left: auto;
-  margin-right: auto;
+  @include autoMargins();
   margin-top: 2.8rem;
+  margin-bottom: 2rem;
   max-width: 10rem;
   border-color: #d48327;
 }
@@ -73,14 +73,11 @@
 /* Our Team section */
 
 #team {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
+    @include maxWidthBody();
 }
 
 .team_cards {
   padding-top: 0.8rem;
-  padding-left: 3rem;
 }
 
 .team_member {
@@ -105,22 +102,22 @@
 }
 
 .bottom_cta h2 {
-@include bottomCTA_text();
+  @include bottomCTA_text();
 }
 
-  @media screen and (max-width: 400px) {
-      .about_parallax h1 {
-          top: 36%;
-      }
-  }
+@media screen and (max-width: 400px) {
+    .about_parallax h1 {
+        top: 36%;
+    }
+}
 
-  @media screen and (max-width: 576px) {
-    
-    .team_cards {
-      padding-left: 0;
-    }
-    
-    .team_member {
-      @include autoMargins();
-    }
+@media screen and (max-width: 576px) {
+  
+  .team_cards {
+    padding: 0;
   }
+  
+  .team_member {
+    width: 75%;
+  }
+}

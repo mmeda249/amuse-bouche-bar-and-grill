@@ -251,9 +251,10 @@
 }
 
 .about_hr {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   margin-top: 2.8rem;
+  margin-bottom: 2rem;
   max-width: 10rem;
   border-color: #d48327;
 }
@@ -262,12 +263,11 @@
 #team {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .team_cards {
   padding-top: 0.8rem;
-  padding-left: 3rem;
 }
 
 .team_member {
@@ -307,11 +307,10 @@
 
 @media screen and (max-width: 576px) {
   .team_cards {
-    padding-left: 0;
+    padding: 0;
   }
   .team_member {
-    margin-right: auto;
-    margin-left: auto;
+    width: 75%;
   }
 }
 
