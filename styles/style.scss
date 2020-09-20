@@ -3,6 +3,7 @@
 @import "./foodmenu";
 @import "./ourstory";
 @import "./contactpage";
+@import "./res";
 
 
 @mixin maxWidthBody {
@@ -243,7 +244,7 @@ html, body {
 
 .btn-primary:hover {
   background-color: #fff;
-  border: 1px solid #d48327;
+  border: 1px solid rgb(212, 131, 39);
   color: #d48327;
 }
 

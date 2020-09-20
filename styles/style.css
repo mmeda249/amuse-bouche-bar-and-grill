@@ -16,10 +16,11 @@
   padding: 0;
   text-align: center;
   position: absolute;
-  top: 72%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 /* Menu images section */
@@ -226,10 +227,11 @@
   padding: 0;
   text-align: center;
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 /* Our Story section */
@@ -323,10 +325,11 @@
   padding: 0;
   text-align: center;
   position: absolute;
-  top: 72%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 .contact_intro {
@@ -372,6 +375,35 @@
 
 .address_section {
   margin-bottom: 3rem;
+}
+
+/* Reservations Main Parallax */
+.res_parallax {
+  background-image: url("../images/reservations/seafood_curry.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: 45% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.res_parallax h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* Reservation Jotform */
+.res_form {
+  margin-top: 4rem;
 }
 
 * {
