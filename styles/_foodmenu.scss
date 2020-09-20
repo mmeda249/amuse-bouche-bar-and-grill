@@ -52,6 +52,20 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  animation-name: heroFade;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+@keyframes heroFade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Menu images section */
