@@ -1,7 +1,7 @@
 /* Sass */
 /* Menu Parallax */
 .foodMenu_parallax {
-  background-image: url("../images/spare_images/scallops_avocado.jpg");
+  background-image: url("../images/menu/scallops_avocado_overlay.jpg");
   min-height: 450px;
   background-attachment: local;
   background-position: 50% 70%;
@@ -246,7 +246,7 @@
 
 /* About Parallax */
 .about_parallax {
-  background-image: url("../images/about/about_main/carrot_dish.jpg");
+  background-image: url("../images/about/about_main/carrot_dish_overlay.jpg");
   min-height: 450px;
   background-attachment: local;
   background-position: 75% 80%;
@@ -371,7 +371,7 @@
 
 /* Contact Main Parallax */
 .contact_parallax {
-  background-image: url("../images/contact/salmon_thin.jpg");
+  background-image: url("../images/contact/salmon_thin_overlay.jpg");
   min-height: 450px;
   background-attachment: local;
   background-position: 40% 56%;
@@ -467,7 +467,7 @@
 
 /* Reservations Main Parallax */
 .res_container {
-  background-image: url(../images/reservations/food_table.jpg);
+  background-image: url(../images/reservations/table.jpg);
   background-attachment: fixed;
   background-position: 50% 50%;
   background-repeat: no-repeat;
