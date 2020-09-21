@@ -275,7 +275,7 @@ html, body {
 .first-parallax {
   background-image: url("../images/home_parallax/pasta_dish_overlay.jpg");
   opacity: 0.9;
-  min-height: 400px;
+  min-height: 200px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,10 +290,6 @@ html, body {
   padding-top: 0.9rem;
 }
 
-.parallax_body1, .parallax_body2, .parallax_body3, .parallax_body4 {
-  margin-top: 4rem;
-}
-
 .parallax_card i {
   font-size: 2.8rem;
 }
@@ -306,13 +302,15 @@ html, body {
 .parallax_text {
   @include maxWidthBody();
   color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* Second Parallax - index.html */
 
 .second-parallax {
-  background-image: url("../images/home_parallax/drinks_overlay2.jpg");
-  min-height: 400px;
+  background-image: url("../images/home_parallax/drinks_overlay3.jpg");
+  min-height: 350px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -322,7 +320,12 @@ html, body {
 .drinks_section {
   @include maxWidthBody();
   color: #000;
-  padding-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.drinks_section p {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .drinks_section h2 {
@@ -335,6 +338,7 @@ html, body {
 .signature {
   font-family: 'Holland', cursive;
   font-size: 2.5rem;
+  font-weight: normal;
 }
 
 /* Reservations.html? */
