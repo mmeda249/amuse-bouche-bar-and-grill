@@ -234,7 +234,7 @@
 @media screen and (max-width: 400px) {
   .foodMenu_parallax h1 {
     font-size: 450%;
-    top: 53%;
+    top: 68%;
   }
 }
 
@@ -342,16 +342,22 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 400px) {
-  .about_parallax h1 {
-    top: 36%;
-  }
-}
-
 @media screen and (max-width: 576px) {
+  .about_parallax h1 {
+    font-size: 350%;
+    top: 68%;
+  }
   .team_member {
     width: 50%;
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about_parallax h1 {
+    top: 69%;
+    font-size: 250%;
+    letter-spacing: 2px;
   }
 }
 
@@ -441,6 +447,14 @@
 
 .address_section {
   margin-bottom: 3rem;
+}
+
+/* Responsive breakpoints */
+@media screen and (max-width: 400px) {
+  .contact_parallax h1 {
+    font-size: 450%;
+    top: 68%;
+  }
 }
 
 /* Reservations Main Parallax */

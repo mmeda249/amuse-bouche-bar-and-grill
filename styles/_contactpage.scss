@@ -110,3 +110,14 @@
 .address_section {
     margin-bottom: 3rem;
 }
+
+/* Responsive breakpoints */
+
+@media screen and (max-width: 400px) {
+  
+  .contact_parallax h1 {
+    font-size: 450%;
+    top: 68%;
+  }
+  
+}
