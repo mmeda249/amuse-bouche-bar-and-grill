@@ -113,6 +113,10 @@
   border-color: #d48327 !important;
 }
 
+.menu_section {
+  @include maxWidthBody();
+}
+
 .menu_section .card {
   border: none;
   outline: none;
@@ -195,8 +199,6 @@
     transform: translateY(0);
   }
 }
-
-
 
 /* "Book a Table" Section */
 
