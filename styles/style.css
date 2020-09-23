@@ -576,8 +576,8 @@ html, body {
   font-weight: bold;
   -webkit-animation-name: heroFade;
           animation-name: heroFade;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-in;
