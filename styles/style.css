@@ -841,7 +841,11 @@ html, body {
 .signature {
   font-family: 'Holland', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: 500;
+}
+
+.sommelier {
+  font-size: 1rem;
 }
 
 /* Reservations.html? */
