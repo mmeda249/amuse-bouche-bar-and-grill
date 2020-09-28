@@ -32,9 +32,10 @@
 
 .foodMenu_parallax {
   background-image: url("../images/menu/scallops_avocado_overlay.jpg");
+  margin-top: -80px;
   min-height: 500px;
   background-attachment: local;
-  background-position: 50% 70%;
+  background-position: 75% 80%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -223,7 +224,20 @@
 @media screen and (max-width: 400px) {
   
   .foodMenu_parallax h1 {
-    font-size: 250%;
+    font-size: 350%;
+    top: 50%;
   }
   
+}
+
+@media screen and (max-width: 768px) {
+  .foodMenu_parallax {
+    background-position: 35% 50%;
+    margin-top: -290px;
+    min-height: 130vh;
+  }
+
+  .foodMenu_parallax h1 {
+    top: 53%;
+  }
 }

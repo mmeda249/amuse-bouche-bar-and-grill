@@ -32,6 +32,7 @@
 
 .about_parallax {
   background-image: url("../images/about/about_main/carrot_dish_overlay.jpg");
+  margin-top: -80px;
   min-height: 500px;
   background-attachment: local;
   background-position: 75% 80%;
@@ -131,6 +132,11 @@
 
   .about_parallax h1 {
     font-size: 350%;
+    top: 50%;
+  }
+
+  .about_parallax {
+    background-position: center;
   }
 
   .team_member {

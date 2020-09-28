@@ -71,8 +71,12 @@ html, body {
   padding-left: 1rem;
 }
 
-.navbar-custom {
-  background-color: #232323;
+.navbar.navbar-dark {
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 
 .navbar-nav li {
@@ -107,6 +111,7 @@ html, body {
 .hero_section {
   background-image: url(../images/home_main/steak_mushrooms_overlay1.jpg);
   padding: 140px;
+  margin-top: -80px;
   min-height: 100vh;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -392,7 +397,7 @@ html, body {
 
   .hero_section {
     padding: 100px;
-    background-attachment: local;
+    background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -413,4 +418,17 @@ html, body {
   .parallax_body4 {
     margin-bottom: 2rem;
   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar.navbar-dark {
+    background-color: rgba(20, 20, 20, 0.9);
+  }
+
+  .hero_section, .about_parallax {
+    margin-top: -290px;
+    min-height: 130vh;
+  }
+
 }

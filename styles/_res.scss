@@ -31,7 +31,8 @@
 /* Reservations Main Parallax */
 
   .res_container {
-    background-image: url(../images/reservations/table.jpg);
+    background-image: url(../images/reservations/table_overlay.jpg);
+    margin-top: -140px;
     background-attachment: fixed;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -41,5 +42,16 @@
   /* Reservation Jotform */
 
   .res_form {
-      margin-top: 4rem;
+      padding-top: 10rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .res_container {
+      margin-top: -290px;
+    }
+
+    .res_form {
+      padding-top: 22rem;
+    }
+
   }

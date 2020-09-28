@@ -2,9 +2,10 @@
 /* Menu Parallax */
 .foodMenu_parallax {
   background-image: url("../images/menu/scallops_avocado_overlay.jpg");
+  margin-top: -80px;
   min-height: 500px;
   background-attachment: local;
-  background-position: 50% 70%;
+  background-position: 75% 80%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -238,13 +239,26 @@
 /* Responsive breakpoints */
 @media screen and (max-width: 400px) {
   .foodMenu_parallax h1 {
-    font-size: 250%;
+    font-size: 350%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .foodMenu_parallax {
+    background-position: 35% 50%;
+    margin-top: -290px;
+    min-height: 130vh;
+  }
+  .foodMenu_parallax h1 {
+    top: 53%;
   }
 }
 
 /* About Parallax */
 .about_parallax {
   background-image: url("../images/about/about_main/carrot_dish_overlay.jpg");
+  margin-top: -80px;
   min-height: 500px;
   background-attachment: local;
   background-position: 75% 80%;
@@ -355,6 +369,10 @@
 @media screen and (max-width: 576px) {
   .about_parallax h1 {
     font-size: 350%;
+    top: 50%;
+  }
+  .about_parallax {
+    background-position: center;
   }
   .team_member {
     width: 50%;
@@ -372,6 +390,7 @@
 /* Contact Main Parallax */
 .contact_parallax {
   background-image: url("../images/contact/salmon_thin_overlay.jpg");
+  margin-top: -80px;
   min-height: 500px;
   background-attachment: local;
   background-position: 40% 56%;
@@ -388,7 +407,7 @@
   padding: 0;
   text-align: center;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -461,13 +480,25 @@
 @media screen and (max-width: 400px) {
   .contact_parallax h1 {
     font-size: 350%;
-    top: 36%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_parallax {
+    background-position: center;
+    margin-top: -290px;
+    min-height: 130vh;
+  }
+  .contact_parallax h1 {
+    top: 53%;
   }
 }
 
 /* Reservations Main Parallax */
 .res_container {
-  background-image: url(../images/reservations/table.jpg);
+  background-image: url(../images/reservations/table_overlay.jpg);
+  margin-top: -140px;
   background-attachment: fixed;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -476,7 +507,16 @@
 
 /* Reservation Jotform */
 .res_form {
-  margin-top: 4rem;
+  padding-top: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .res_container {
+    margin-top: -290px;
+  }
+  .res_form {
+    padding-top: 22rem;
+  }
 }
 
 * {
@@ -524,8 +564,12 @@ html, body {
   padding-left: 1rem;
 }
 
-.navbar-custom {
-  background-color: #232323;
+.navbar.navbar-dark {
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 
 .navbar-nav li {
@@ -560,6 +604,7 @@ html, body {
 .hero_section {
   background-image: url(../images/home_main/steak_mushrooms_overlay1.jpg);
   padding: 140px;
+  margin-top: -80px;
   min-height: 100vh;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -849,7 +894,7 @@ html, body {
 @media screen and (max-width: 576px) {
   .hero_section {
     padding: 100px;
-    background-attachment: local;
+    background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -865,6 +910,16 @@ html, body {
   }
   .parallax_body4 {
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar.navbar-dark {
+    background-color: rgba(20, 20, 20, 0.9);
+  }
+  .hero_section, .about_parallax {
+    margin-top: -290px;
+    min-height: 130vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
