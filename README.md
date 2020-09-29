@@ -26,7 +26,8 @@ Project was created with:
 * Bootstrap 4
 * Animate on Scroll (AOS) Library
 * AJAX
-* Jotform
+* Jotform (reservation form from Jotform with custom CSS by Mutsa Meda)
+* Formspree 
 
 ### Installations
 
@@ -48,6 +49,14 @@ Git version control
 ## Web Content Development
 
 Text content has been created and edited by Mutsa Meda. All logos, excluding icons, have been created by Mutsa Meda. 
+
+### Colors
+
+* #4d4d4d
+* #d48327
+* #838282
+* #232323
+* #141414
 
 ### Stock Images 
 
