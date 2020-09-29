@@ -28,6 +28,7 @@ Project was created with:
 * AJAX
 * Jotform (reservation form from Jotform with custom CSS by Mutsa Meda)
 * Formspree 
+* Font Awesome
 
 ### Installations
 
