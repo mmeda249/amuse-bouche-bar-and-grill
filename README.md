@@ -6,9 +6,9 @@ Amuse Bouche Bistro is a fictional Mediterranean fusion restaurant located in G
 * [Description](#description)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Web Content Development] (#webcontentdevelopment)
-* [License] (#license)
-* [Acknowledgements] (#acknowledgements)
+* [Web-Content-Development](#web-content-development)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
 ## Description
 
