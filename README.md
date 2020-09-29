@@ -35,6 +35,7 @@ Project was created with:
 * Bootstrap - https://getbootstrap.com/docs/4.5/getting-started/download/
 * Ajax - https://cdnjs.com/libraries/jquery-ajaxy
 * Animate on Scroll - https://github.com/michalsnik/aos
+* Font Awesome - https://fontawesome.com/
 
 ### Versioning
 
