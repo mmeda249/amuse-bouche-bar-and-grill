@@ -6,6 +6,9 @@ Amuse Bouche Bistro is a fictional Mediterranean fusion restaurant located in G
 * [Description](#description)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Web-Content-Development](#web-content-development)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
 ## Description
 
@@ -13,7 +16,7 @@ The target audience for this project are lovers of food and travel. The restaura
 
 The language and imagery have been developed to help transport the user to the Mediterranean, which is intended to encourage patrons to dine at the restaurant. The user interface has been designed to be clean and modern, with a balance of white space, repeated elements and a pop of color consistent with the business logo.
 
-## Getting Started
+## Setup
 
 ### Technologies
 
@@ -23,14 +26,17 @@ Project was created with:
 * Bootstrap 4
 * Animate on Scroll (AOS) Library
 * AJAX
-* Jotform
+* Jotform (reservation form from Jotform with custom CSS by Mutsa Meda)
+* Formspree 
+* Font Awesome
 
-### Setup
+### Installations
 
 * Install jQuery - https://cdnjs.com/libraries/jqueryInstall 
 * Bootstrap - https://getbootstrap.com/docs/4.5/getting-started/download/
 * Ajax - https://cdnjs.com/libraries/jquery-ajaxy
 * Animate on Scroll - https://github.com/michalsnik/aos
+* Font Awesome - https://fontawesome.com/
 
 ### Versioning
 
@@ -45,6 +51,14 @@ Git version control
 ## Web Content Development
 
 Text content has been created and edited by Mutsa Meda. All logos, excluding icons, have been created by Mutsa Meda. 
+
+### Colors
+
+* #4d4d4d
+* #d48327
+* #838282
+* #232323
+* #141414
 
 ### Stock Images 
 
