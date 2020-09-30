@@ -36,7 +36,7 @@
   margin-top: -80px;
   min-height: 50vh;
   background-attachment: local;
-  background-position: 50% 50%;
+  background-position: 50% 75%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,9 +115,10 @@
 @media screen and (max-width: 400px) {
 
   .story_parallax h1 {
-    top: 20%;
+    top: 30%;
     font-size: 250%;
     letter-spacing: 2px;
+    text-align: center;
   }
 }
 
