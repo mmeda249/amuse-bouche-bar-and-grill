@@ -28,7 +28,10 @@
   font-size: 2rem;
 }
 
-@mixin menuParallax {
+/* Menu Parallax */
+
+.foodMenu_parallax {
+  background-image: url("../images/menu/prosciutto_crostini_overlay.jpg");
   padding: 140px;
   margin-top: -80px;
   min-height: 50vh;
@@ -38,7 +41,7 @@
   background-size: cover;
 }
 
-@mixin menuHeader {
+.foodMenu_parallax h1 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
   font-size: 3.5rem;
@@ -47,17 +50,6 @@
   top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-/* Menu Parallax */
-
-.foodMenu_parallax {
-  background-image: url("../images/menu/prosciutto_crostini_overlay.jpg");
-  @include menuParallax();
-}
-
-.foodMenu_parallax h1 {
-  @include pageHeader();
 }
 
 /* Menu images section */

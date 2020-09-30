@@ -28,7 +28,10 @@
   font-size: 2rem;
 }
 
-@mixin menuParallax {
+/* Contact Parallax */
+
+.contact_parallax {
+  background-image: url("../images/contact/salmon_thin_overlay.jpg");
   padding: 140px;
   margin-top: -80px;
   min-height: 50vh;
@@ -38,7 +41,7 @@
   background-size: cover;
 }
 
-@mixin contactHeader {
+.contact_parallax h1 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
   font-size: 3.5rem;
@@ -47,17 +50,6 @@
   top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-/* Contact Parallax */
-
-.contact_parallax {
-  background-image: url("../images/contact/salmon_thin_overlay.jpg");
-  @include contactParallax();
-}
-
-.contact_parallax h1 {
-  @include contactHeader();
 }
 
 .contact_intro {
