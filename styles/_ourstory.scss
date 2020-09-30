@@ -28,23 +28,23 @@
   font-size: 2rem;
 }
 
-@mixin pageParallax {
-  height: 70vh;
-  margin-top: -80px; 
-  position: relative;
+@mixin storyParallax {
+  padding: 140px;
+  margin-top: -80px;
+  min-height: 50vh;
   background-attachment: local;
-  background-position: 50% 75%;
+  background-position: 50% 40%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@mixin pageHeader {
+@mixin storyHeader {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
   font-size: 3.5rem;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -53,11 +53,11 @@
 
 .about_parallax {
   background-image: url("../images/about/about_main/scallops_avocado_overlay.jpg");
-  @include pageParallax();
+  @include storyParallax();
 }
 
 .about_parallax h1 {
-  @include pageHeader();
+  @include storyHeader();
 }
 
 /* Our Story section */

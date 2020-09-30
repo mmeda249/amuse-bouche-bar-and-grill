@@ -426,10 +426,10 @@ html, body {
 @media screen and (max-width: 768px) {
 
   .navbar.navbar-dark {
-    background-color: rgba(20, 20, 20, 0.9);
+    background-color: rgb(20, 20, 20);
   }
 
-  .hero_section, .about_parallax {
+  .hero_section {
     margin-top: -290px;
     min-height: 130vh;
   }

@@ -2,9 +2,9 @@
 /* Menu Parallax */
 .foodMenu_parallax {
   background-image: url("../images/menu/prosciutto_crostini_overlay.jpg");
-  height: 70vh;
+  padding: 140px;
   margin-top: -80px;
-  position: relative;
+  min-height: 50vh;
   background-attachment: local;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
   font-size: 3.5rem;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 28%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -211,30 +211,34 @@
 /* Responsive breakpoints */
 @media screen and (max-width: 400px) {
   .foodMenu_parallax h1 {
+    top: 80%;
     font-size: 325%;
-    top: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .foodMenu_parallax {
-    margin-top: -290px;
-    min-height: 130vh;
-    background-position: 70%;
+    padding: 140px;
+    margin-top: 0;
+    min-height: 40vh;
+    background-attachment: local;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .foodMenu_parallax h1 {
-    top: 70%;
+    top: 30%;
   }
 }
 
 /* About Parallax styling */
 .about_parallax {
   background-image: url("../images/about/about_main/scallops_avocado_overlay.jpg");
-  height: 70vh;
+  padding: 140px;
   margin-top: -80px;
-  position: relative;
+  min-height: 50vh;
   background-attachment: local;
-  background-position: 50% 75%;
+  background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -245,7 +249,7 @@
   font-size: 3.5rem;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 28%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -889,9 +893,9 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .navbar.navbar-dark {
-    background-color: rgba(20, 20, 20, 0.9);
+    background-color: #141414;
   }
-  .hero_section, .about_parallax {
+  .hero_section {
     margin-top: -290px;
     min-height: 130vh;
   }
