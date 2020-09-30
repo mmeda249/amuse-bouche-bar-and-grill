@@ -12,7 +12,7 @@ Amuse Bouche Bistro is a fictional Mediterranean fusion restaurant located in G
 
 ## Description
 
-The target audience for this project are lovers of food and travel. The restaurant is a Mediterranean bistro that serves fusion cuisine, both popular and uncommon dishes from the following countries bordering the Mediterranean Sea: Italy, Greece, Morocco, France, Tunisia, Croatia, Lebanon and Spain. Specific personas developed during the design process were young DC area foodies and professional government contractor emplyees and travel frequently for both work and leisure, and have a taste for sophisticated high end yet rustic and conforting meals.The content has been developed to speak to the user's travel sensibilities. 
+The restaurant is a Mediterranean bistro that serves fusion cuisine, both popular and uncommon dishes from the following countries bordering the Mediterranean Sea: Italy, Greece, Morocco, France, Tunisia, Croatia, Lebanon and Spain. Specific personas developed during the design process were professional cosmopolitan foodies that travel frequently for both work and leisure, and have a taste for sophisticated high end yet rustic and comforting meals.
 
 The language and imagery have been developed to help transport the user to the Mediterranean, which is intended to encourage patrons to dine at the restaurant. The user interface has been designed to be clean and modern, with a balance of white space, repeated elements and a pop of color consistent with the business logo.
 
@@ -50,7 +50,7 @@ Git version control
 
 ## Web Content Development
 
-Text content has been created and edited by Mutsa Meda. All logos, excluding icons, have been created by Mutsa Meda. 
+Logo styling, logo text and text content have been created and edited by Mutsa Meda. Attribution for logo creator can be found in Acknowledgements section below.
 
 ### Colors
 
@@ -80,5 +80,5 @@ Wine descriptions compiled from:
 
 ## Acknowledgements
 
-* "Vegetable" by BomSymbols from the Noun Project.
+* "Vegetable" icon by BomSymbols from the Noun Project.
 
