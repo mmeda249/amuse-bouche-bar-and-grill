@@ -110,7 +110,7 @@ html, body {
 /* Hero section */
 
 .hero_section {
-  background-image: url(../images/home_main/steak_mushrooms_overlay1.jpg);
+  background-image: url("../images/home_main/steak_mushrooms_overlay1.jpg");
   padding: 140px;
   margin-top: -80px;
   min-height: 100vh;
@@ -283,6 +283,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url();
 }
 
 .parallax_card h5 {

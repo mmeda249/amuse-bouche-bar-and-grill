@@ -28,36 +28,36 @@
   font-size: 2rem;
 }
 
-@mixin pageParallax {
-  height: 70vh;
-  margin-top: -80px; 
-  position: relative;
+@mixin menuParallax {
+  padding: 140px;
+  margin-top: -80px;
+  min-height: 50vh;
   background-attachment: local;
-  background-position: center;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@mixin pageHeader {
+@mixin contactHeader {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
   font-size: 3.5rem;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* Contact Main Parallax */
+/* Contact Parallax */
 
 .contact_parallax {
   background-image: url("../images/contact/salmon_thin_overlay.jpg");
-  @include pageParallax();
+  @include contactParallax();
 }
 
 .contact_parallax h1 {
-  @include pageHeader();
+  @include contactHeader();
 }
 
 .contact_intro {
@@ -105,44 +105,25 @@
 /* Responsive breakpoints */
 
 @media screen and (max-width: 400px) {
-  
+
   .contact_parallax h1 {
+    top: 80%;
     font-size: 325%;
-    top: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .contact_parallax {
-    margin-top: -290px;
-    min-height: 130vh;
+    padding: 140px;
+    margin-top: 0;
+    min-height: 40vh;
+    background-attachment: local;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .contact_parallax h1 {
-    top: 65%;
+    top: 30%;
   }
 }
-
-/*
-@media screen and (max-width: 400px) {
-  
-  .contact_parallax h1 {
-    font-size: 350%;
-    top: 50%;
-  }
-  
-}
-
-@media screen and (max-width: 768px) {
-  .contact_parallax {
-    background-position: center;
-    margin-top: -290px;
-    min-height: 130vh;
-  }
-
-  .contact_parallax h1 {
-    top: 53%;
-  }
-}
-
-*/

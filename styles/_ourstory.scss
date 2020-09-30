@@ -28,17 +28,17 @@
   font-size: 2rem;
 }
 
-@mixin storyParallax {
+@mixin menuParallax {
   padding: 140px;
   margin-top: -80px;
   min-height: 50vh;
   background-attachment: local;
-  background-position: 50% 40%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@mixin storyHeader {
+@mixin menuHeader {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
   font-size: 3.5rem;
@@ -49,15 +49,15 @@
   transform: translate(-50%, -50%);
 }
 
-/* About Parallax styling */
+/* Our Story Parallax */
 
 .about_parallax {
   background-image: url("../images/about/about_main/scallops_avocado_overlay.jpg");
-  @include storyParallax();
+  @include menuParallax();
 }
 
 .about_parallax h1 {
-  @include storyHeader();
+  @include pageHeader();
 }
 
 /* Our Story section */
@@ -104,7 +104,7 @@
 /* Inquiry section */
 
 #inquiry {
-  background-image: url(../images/about/about_main/crostini_arugula_overlay.jpg);
+  background-image: url("../images/about/about_main/crostini_arugula_overlay.jpg");
   min-height: 250px;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -123,17 +123,13 @@
 @media screen and (max-width: 400px) {
 
   .about_parallax h1 {
-      font-size: 250%;
-      letter-spacing: 2px;
+    top: 20%;
+    font-size: 250%;
+    letter-spacing: 2px;
   }
 }
 
 @media screen and (max-width: 576px) {
-
-  .about_parallax h1 {
-    font-size: 350%;
-    top: 50%;
-  }
 
   .team_member {
     width: 50%;
@@ -142,12 +138,17 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .about_parallax {
-    background-position: 38%;
+    padding: 140px;
+    margin-top: 0;
+    min-height: 40vh;
+    background-attachment: local;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .about_parallax h1 {
-    top: 67%
+    top: 20%;
   }
 }
