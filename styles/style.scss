@@ -312,12 +312,17 @@ html, body {
 /* Second Parallax - index.html */
 
 .second-parallax {
-  background-image: url("../images/home_parallax/drinks_overlay3.jpg");
-  min-height: 350px;
+  background-image: url("../images/home_parallax/drinks.jpg");
+  min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.drinks_space {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 
 .drinks_section {
@@ -325,7 +330,9 @@ html, body {
   color: #000;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.9);
 }
+
 .drinks_section p {
   font-size: 1.1rem;
 }
